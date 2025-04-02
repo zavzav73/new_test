@@ -6,7 +6,7 @@ import streamlit as st
 st.title("Загрузка и отображение данных из train.csv")
 
 # Задайте путь к файлу CSV
-file_path = 'https://github.com/zavzav73/new_test/blob/main/train.csv'  # Замените на путь к Вашему файлу
+file_path = 'https://raw.githubusercontent.com/zavzav73/new_test/refs/heads/main/train.csv'  # Замените на путь к Вашему файлу
 
 # Загрузка данных из CSV
 @st.cache_data
